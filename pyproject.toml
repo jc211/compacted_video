@@ -2,11 +2,11 @@
 authors = [{name = "Jad Abou-Chakra", email = "29726242+jc211@users.noreply.github.com"}]
 dependencies = [
     "compacted-segments@git+https://github.com/jc211/compacted_segments",
-    "torchcodec@https://download.pytorch.org/whl/cu124/TorchCodec-0.1.1%2Bcu124-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+   # "torchcodec@https://download.pytorch.org/whl/cu124/TorchCodec-0.1.1%2Bcu124-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 
 ]
 name = "compacted-video"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.11,<3.13"
 version = "0.1.0"
 
 [build-system]
